@@ -4,3 +4,6 @@ Completed assignments for Julia Course
 
 ### Content
 
+- Lab1
+- Lab2 ...
+
