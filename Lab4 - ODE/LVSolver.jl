@@ -34,7 +34,7 @@ for i = 1:length(sol.u)
     push!(arr2,sol.u[i][2])
 end
 
-writedlm(file_name, [["t"; sol.t] ["x"; arr1] ["y"; arr2] ["experiment"; fill("exp1", length(arr1))]],';')
+writedlm(file_name, [["t"; sol.t] ["x"; arr1] ["y"; arr2] ["experiment"; fill(file_name, length(arr1))]],';')
 
 print("Output written to:", file_name,  "\n")
 exit(0)
