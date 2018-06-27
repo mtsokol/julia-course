@@ -9,3 +9,5 @@ Completed assignments for Julia Course
 - Lab3 - profiling in Julia (module implementing graph algorithms)
 - Lab4 - Program for solving Lotka-Volterra Equations. Simple data analysis with plotting
 - Lab5 - metaprogramming in Julia
+- Lab6 - Parallelism in Julia
+
